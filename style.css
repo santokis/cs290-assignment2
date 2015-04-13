@@ -1,0 +1,15 @@
+TABLE {border-collapse: collapse;}
+TR, TD, TH {border: 3px double black;}
+TH {width: 120px; font-style: italic; font-weight: normal;}
+TH+TH {font-style: normal; font-weight: bold;}
+TH+TD {color:red;}
+TH+TD+TD+TD {color: blue;}
+THEAD TR TH {background-color: white;}
+TFOOT TR TD {background-color: white;}
+TR:nth-child(odd) {background-color: lightgreen;}
+TR:nth-child(even) {background-color: lightblue;}
+DT:HOVER+DD {background-color: purple;}
+DIV.outer-container {background-color: pink; width: 75%; margin-top: 20px; padding-top: 10px; padding-bottom: 10px;}
+DIV.inner-container {background-color: blue; width: 75%; margin-left: auto; margin-right: auto; text-align: center;}
+FORM {border: 3px double black; margin-top: 20px; margin-bottom: 20px;}
+IMG {width: 100px; height: 125px; float: left;}
